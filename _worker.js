@@ -20,7 +20,7 @@ function routeByHosts(host) {
 		"cloudsmith": "docker.cloudsmith.io",
 		
 		// 测试环境
-		"test": "registry-1.docker.io",
+		"test": "index.docker.io",
 	};
 
 	if (host in routes) return [ routes[host], false ];
